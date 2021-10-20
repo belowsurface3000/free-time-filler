@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Free time filler</title>
+</head>
+<body>
+
+<!-- OUT OF PAGE FLOW -->
+    <div class="background-color"></div>
+<!-- END OF OUT OF PAGE FLOW -->
+
+    <main>
+        <div class="freetime-filler" id="freetime-filler-id">
+            <h1>Free time filler</h1>
+            <p>Got some free time and have no idea what to do? Let's provide you with some ideas!</p>
+            <div class="container">
+                <form class="freetime-filler-form">
+                    <!-- select if group, single or both -->
+                    <p>Group or single activity, or are both okay?</p>
+                    <div>
+                        <select name="social" id="social">
+                            <option value="both">Both</option>
+                            <option value="group">Group</option>
+                            <option value="single">Single</option>
+                        </select>
+                    </div>
+                    <!-- select type -->
+                    <p>Interested in a specific type of activity?</p>
+                    <div>
+                        <input type="checkbox" name="type" id="sport" value="sport" checked>
+                        <label for="sport">Sports</label>
+                        <input type="checkbox" name="type" id="lazy" value="lazy" checked>
+                        <label for="lazy">Lazy</label>
+                        <input type="checkbox" name="type" id="art" value="art" checked>
+                        <label for="art">Arts</label>
+                        <input type="checkbox" name="type" id="recreational" value="recreational" checked>
+                        <label for="recreational">Recreational</label>
+                        <input type="checkbox" name="type" id="educational" value="educational" checked>
+                        <label for="educational">Educational</label>
+                    </div>
+                    <!-- time -->
+                    <p>Limited time only?</p>
+                    <div>
+                        <select name="time" id="time">
+                            <option value="unlimited">Unlimited</option>
+                            <option value="2">Two hours</option>
+                            <option value="1">One hour</option>
+                        </select>
+                    </div>
+                    <!-- cost -->
+                    <p>Does money matter?</p>
+                    <div>
+                        <select name="cost" id="cost">
+                            <option value="all">Show All</option>
+                            <option value="cheap">Max 5€</option>
+                            <option value="free">Free Only</option>
+                        </select>
+                    </div>
+                    <div class="btns">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Go!</button>
+                    </div>
+                </form>
+    
+                <div class="freetime-filler-output2">
+                    <div class="heading-output"></div>
+                    <div>
+                        <div class="text">
+                            <div class="activity-output"></div>
+                            <div class="time-output"></div>
+                            <div class="cost-output"></div>
+                            <div class="no-activity-output"></div>
+                            <div class="needs-output"></div>
+                            <div class="more-output"></div>  
+                        </div>
+                        <div class="img-btn">
+                            <img class="image-output" src="">
+                            <button class="next-activity">Next please!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- container closing -->
+            </div>
+            <!-- freetime filler closing -->
+        </div>
+
+    </main>
+
+    <!-- <script src="./scripts/clicknavigation.js"></script> -->
+    <script src="./scripts/freetimefiller.js"></script>
+    
+</body>
+</html>
