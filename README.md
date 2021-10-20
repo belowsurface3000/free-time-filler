@@ -12,3 +12,5 @@ A web project for DCI during a one year web development course. The goal was to 
 - Other methods used: indexOf(), .setAttribute(), .join(), .push()
 
 Images are all from https://unsplash.com
+
+https://github.com/belowsurface3000/free-time-filler/blob/main/free-time-filler.png
