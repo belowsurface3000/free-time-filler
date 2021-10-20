@@ -12,4 +12,5 @@ A web project for DCI during a one year web development course. The goal was to 
 
 Images are all from https://unsplash.com
 
-https://github.com/belowsurface3000/free-time-filler/blob/b4e7b68afe1a9ba764d012879487595dd1199f91/free-time-filler.png
+![Screenshot](https://github.com/belowsurface3000/free-time-filler/blob/b4e7b68afe1a9ba764d012879487595dd1199f91/free-time-filler.png)
+
