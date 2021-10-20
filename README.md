@@ -13,4 +13,3 @@ A web project for DCI during a one year web development course. The goal was to 
 
 Images are all from https://unsplash.com
 
-https://github.com/belowsurface3000/free-time-filler/blob/main/free-time-filler.png
