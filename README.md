@@ -1,7 +1,7 @@
 # Project: "Free Time Filler" - find something nice to do in your free time
 
 ## Live Version:
-https://belowsurface3000.github.io/free-time-filler/
+https://belowsurface3000.github.io/free-time-filler
 
 A web project for DCI during a one year web development course. The goal was to practice HTML, SASS, &amp; JavaScript: JS Objects, JS Array Methods, DOM Manipulation. My goal was to create a basic website, where users can find inspirations about what to do in their free time. Users will get displayed a random actitiy when the page is loaded first. Then selections may be done, according to interestes, time and money available. Matching activities will be displayed with some text and an image. The user can hit "Next please!" to display anohter activity, until something was found or the suggestions ran empty.
 
